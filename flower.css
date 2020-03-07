@@ -1,0 +1,51 @@
+body {
+
+    background-color: white;
+	font-family: Indie Flower, cursive;
+	font-size: 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+#img {
+
+width: 30%;
+height: 30%;
+object-fit: cover;
+padding: 20px;
+
+
+}
+
+.list-unstyled{
+
+  display: grid;
+  grid-gap: 20px;
+
+}
+
+#main {
+
+  width: 1200px;
+  height: 100px;
+  margin: 5px auto 5px auto;
+  padding: 10px;
+
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
